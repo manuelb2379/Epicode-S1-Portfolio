@@ -8,60 +8,185 @@
 </head>
 
 <body>
+
+    <!--Blocco header/nav-->
+
     <header>
-        <h1>Manuel Burgalassi</h1>
+        <h1 id="start">Manuel Burgalassi</h1>
         <p><b>Studente Full Stack</b> corso Epicode 2026 </p>
 
         <nav>
             <ul>
                 <li><a href="#chi-sono">Chi sono</a></li>
                 <li><a href="#competenze">Competenze</a></li>
+                <li><a href="#esperienze">Esperienze</a></li>
                 <li><a href="#progetti">Progetti</a></li>
                 <li><a href="#contatti">Contatti</a></li>
             </ul>
         </nav>
     </header>
+
+    <!--Blocco main-->
+
     <main>
-        <h2 id="chi-sono">Chi sono</h2>
-        <p>Mi chiamo Manuel Burgalassi e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e ogni
-            giorno
-            aggiungo qualcosa di nuovo a questa pagnina. Mi piace lavorare in gruppo, leggere documentazione tecnica e
-            capire come funzionano le cose.</p>
+        <section>
+            <!--Chi sono-->
+            <h2 id="chi-sono">Chi sono</h2>
+            <figure>
+                <img src="assets/foto.jpg" alt="foto-profilo" width="200" />
+                <figcaption>Ecco una foto di me</figcaption>
+            </figure>
+            <div>
+                <p>Mi chiamo Manuel Burgalassi e sto imparando a programmare. Studio sviluppo web con <b>Epicode</b> e
+                    ogni giorno aggiungo qualcosa di nuovo a questa pagnina. Mi piace lavorare in gruppo, leggere
+                    documentazione
+                    tecnica e capire come funzionano le cose.</p>
+            </div>
+            <div>
+                <p>Vivo a San Vincenzo. Ho una formazione precedente in <i>ragioneria</i> e ora sto cambiando settore.
+                    Cerco un primo ruolo come sviluppatore frontend.</p>
+            </div>
+            <aside>
+                <p>Pratico molto sport più nello specifico calcio e palestra e per rilassarmi mi piace leggere libri e
+                    manga</p>
+            </aside>
+        </section>
+        <div>
+            <p><a href="#start">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Competenze-->
+        <section>
+            <h2 id="Competenze">Competenze</h2>
+            <div>
+                <p>Le tecnologie che vedo durante le prime settimane di corso:</p>
+            </div>
+            <ul>
+                <li>HTML - struttura delle pagine</li>
+                <li>CSS - stile e impaginazione</li>
+                <li>Git e GitHub - versionamento del codice</li>
+                <li>Visual Studio Code - editor di lavoro</li>
+            </ul>
+        </section>
 
-        <p>Vivo a San Vincenzo. Ho una formazione precedente in <i>ragioneria</i> e ora sto cambiando settore. Cerco un
-            primo ruolo come sviluppatore frontend.</p>
+        <div>
+            <p><a href="#start">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Esperienze formative e lavorative-->
+        <section>
 
-        <h2 id="Competenze">Competenze</h2>
-        <p>Le tecnologie che vedo durante le prime settimane di corso</p>
-        <ul>
-            <li>HTML - struttura delle pagine</li>
-            <li>CSS - stile e impaginazione</li>
-            <li>Git e GitHub - versionamento del codice</li>
-            <li>Visual Studio Code - editor di lavoro</li>
-        </ul>
-        <h2 id="progetti">Progetti</h2>
-        <p>I lavori fatti durante le prime settimane di corso.</p>
-        <h3>Pagina di presentazione</h3>
-            <p>La mia prima pagina di presentazione:<a href="https://github.com/manuelb2379/Epicode-challenge-1" target="_blank">Manuel Burgalassi</a></p>
-        <h3>I paesaggi della toscana</h3>
-            <p>Ecco 6 posti della toscana da non perdersi assolutamente:<a href="https://github.com/manuelb2379/Epicode-challenge-3" target="_blank">Inizia il viaggio da qui</a></p>
-        <h3>Clone di Youtube</h3>
-            <p>Il mio primo tentativo di replica della home page di Youtube:<a href="https://github.com/manuelb2379/Epicode-challenge-4-YouTube" target="_blank">Finto Youtube</a></p>
-            
+            <h2 id="esperienze">Esperienze</h2>
+            <p>Un breve riepilogo del mio percorso formativo e lavorativo recente.</p>
+            <table>
+                <caption>Esperienze formative e lavorative</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Anno</th scope="col">
+                        <th>Ruolo</th>
+                        <th scope="col">Azienda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026</td>
+                        <td>Studente Full-Stack AI Developer</td>
+                        <td>Epicode</td>
+                    </tr>
+                    <tr>
+                        <td>2023 - 2026</td>
+                        <td>Apprendista impiegato contabile</td>
+                        <td>Studio Sistema snc</td>
+                    </tr>
+                    <tr>
+                        <td>2017 - 2023</td>
+                        <td>Capo cuoco e responsabile locale</td>
+                        <td>Casotto Pub snc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        <h2 id="contatti">Contatti</h2>
-        <p>Sono presente su queste piattaforme professionali, dove puoi seguire i miei progetti e contattarmi.</p>
+        <div>
+            <p><a href="#start">Torna alla selezione pincipale</a></p>
+        </div>
+        <!--Progetti-->
+        <article>
+            <h2 id="progetti">Progetti</h2>
+            <div>
+                <p>I lavori fatti durante le prime settimane di corso.</p>
+            </div>
+            <h3>Pagina di presentazione</h3>
+            <p>La mia prima pagina di presentazione:<a href="https://github.com/manuelb2379/Epicode-challenge-1"
+                    target="_blank">Manuel Burgalassi</a></p>
+            <h3>I paesaggi della toscana</h3>
+            <p>Ecco 6 posti della toscana da non perdersi assolutamente:<a
+                    href="https://github.com/manuelb2379/Epicode-challenge-3" target="_blank">Inizia il viaggio da
+                    qui</a>
+            </p>
+            <h3>Clone di Youtube</h3>
+            <p>Il mio primo tentativo di replica della home page di Youtube:<a
+                    href="https://github.com/manuelb2379/Epicode-challenge-4-YouTube" target="_blank">Finto Youtube</a>
+            </p>
+        </article>
 
-        <p>Profilo GitHub:<a href="https://github.com/manuelb2379" target="_blank">github.com/manuelb2379</a></p>
+        <div>
+            <p><a href="#start">Torna alla selezione pincipale</a></p>
+        </div>
+        </section>
 
-        <p>Profilo LinkedIn:<a href="https://www.linkedin.com/in/manuel-burgalassi"
-                target="_blank">linkedin.com/in/manuel-burgalassi</a></p>
+        <!--Contattami-->
+        <section>
+            <h2 id="contatti">Contattami</h2>
+            <div>
+                <p>Compila il seguente form per notificarmi. Ti risponderò entro 24 ore.</p>
+            </div>
+            <!--Form da compilare per contattarmi-->
+            <form action="grazie.html" method="get">
+                <label for="nome">Nome</label>
+                <div>
+                    <input type="text" placeholder="Il tuo nome" id="nome" name="nome" required>
+                </div>
+                <br />
+                <label for="email">Email</label>
+                <div>
+                    <input type="email" placeholder="esempio@esempio.it" id="email" name="email" required>
+                </div>
+                <br />
+                <label for="why">Motivo del contatto</label>
+                <div>
+                    <select id="why" name="why" required>
+                        <option value="" selected></option>
+                        <option value="ODL">Offerta di lavoro</option>
+                        <option value="CI">Colloquio informale</option>
+                        <option value="RI">Richiesta informazioni</option>
+                    </select>
+                </div>
+                <br />
+                <label for="date">Data preferita per la risposta</label>
+                <div>
+                    <input type="date" id="date" name="date">
+                </div>
+                <br />
+                <label for="message">Messaggio</label>
+                <div>
+                    <textarea id="message" name="message" rows="5" required>Scrivi qui il tuo mesaggio....</textarea>
+                </div>
+                <br />
+                <div>
+                    <input type="checkbox" id="checkbox" name="checkbox required">
+                    <span>Accetto di essere ricontattato</span>
+                </div>
+                <br />
+                <button type="submit">Invia</button>
+            </form>
+            <div>
+                <p><a href="#start">Torna alla selezione pincipale</a></p>
+            </div>
+        </section>
 
     </main>
 
-        <footer>© 2026 Manuel Burgalassi</footer>
-
-
+    <!--Footer-->
+    <footer>© 2026 Manuel Burgalassi</footer>
 </body>
 
 </html>
