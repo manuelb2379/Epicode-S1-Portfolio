@@ -1,20 +1,112 @@
-<!--Stile scrittura-->
-html{
-     font-family: "Roboto", sans-serif;
-}
-
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.7;
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: whitesmoke;
+    color: #323E57;
 }
 
-#site-header{
-    background-image: url(https://images.pexels.com/photos/19643235/pexels-photo-19643235.jpeg?_gl=1*veitsg*_ga*MTY1Njc1OTczMy4xNzkwNDU0MDY5*_ga_8JE65Q40S6*czE3OTEzNzYxNzYkbzIkZzEkdDE3OTEzNzYzMTkkajEzJGwwJGgw);
+#site-header {
+    background-image: url(https://images.pexels.com/photos/1320674/pexels-photo-1320674.jpeg?_gl=1*smp3pw*_ga*MTY1Njc1OTczMy4xNzkwNDU0MDY5*_ga_8JE65Q40S6*czE3OTEzNzYxNzYkbzIkZzEkdDE3OTEzNzgxOTQkajUwJGwwJGgw);
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
     text-align: center;
+}
+
+#site-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tagline {
+    font-style: italic;
+    color: rgb(232, 85, 89);
+}
+
+nav {
+    color: white;
+    font-weight: bold;
+    line-height: 3;
+}
+
+nav a {
+    color: hsl(67, 96%, 34%);
+}
+
+nav:hover {
+    color: hsl(67, 96%, 34%);
+}
+
+main h2, h3 {
+    color: #1F3D7A;
+}
+
+.intro {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.intro span{
+    font-weight: 700;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: rgb(244, 250, 252);
+}
+
+.skill-list li:nth-child(even) {
+    background-color: white;
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: rgb(255, 255, 233);
+}
+
+.project:nth-of-type(even) {
+    background-color: rgb(255, 248, 248);
+}
+
+label {
+    font-weight:bold;
+    color: #1F3D7A;
+}
+
+input, textarea{
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    width: 60%;
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+
+.send {
+    color:white;
+    background-color: hsl(220, 60%, 30%);
+    font-weight: bold;
+    width: 30%;
+}
+
+.send:hover {
+    background-color:  hsl(220, 60%, 45%);
+}
+
+#site-footer {
+    background-color: #172136;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.box {
+    width: fit-content;
 }
