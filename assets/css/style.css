@@ -1,0 +1,20 @@
+<!--Stile scrittura-->
+html{
+     font-family: "Roboto", sans-serif;
+}
+
+body{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+#site-header{
+    background-image: url(https://images.pexels.com/photos/19643235/pexels-photo-19643235.jpeg?_gl=1*veitsg*_ga*MTY1Njc1OTczMy4xNzkwNDU0MDY5*_ga_8JE65Q40S6*czE3OTEzNzYxNzYkbzIkZzEkdDE3OTEzNzYzMTkkajEzJGwwJGgw);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+}
