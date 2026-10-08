@@ -27,13 +27,6 @@ main section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-main section h2::before {
-  content: "_";
-  color: gold;
-  font-size: 2em;
-  text-align: center;
-}
-
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -90,7 +83,6 @@ nav a {
 
 nav ul li:hover {
   background-color: rgb(202, 202, 202);
-
 }
 
 nav ul li:hover a {
@@ -167,6 +159,7 @@ textarea {
   color: white;
   text-align: center;
   font-size: 0.9rem;
+  padding: 40px;
 }
 
 .box {
@@ -211,4 +204,16 @@ input::placeholder, textarea::placeholder{
  font-size: 0.75 rem;
 }
 
+table{
+    border-collapse: collapse;
+}
 
+th, tr, td {
+    border: 1px solid #1f3d7a;
+}
+
+#line{
+     color: gold;
+     font-size: 1.5em;
+  text-align: center;
+}
