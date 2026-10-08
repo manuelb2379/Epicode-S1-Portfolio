@@ -1,112 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  body {
+    margin: 0;
+  }
+}
+
+body header {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+main section {
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main section h2::before {
+  content: "_";
+  color: gold;
+  font-size: 2em;
+  text-align: center;
+}
+
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
-    background-color: whitesmoke;
-    color: #323E57;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: whitesmoke;
+  color: black;
 }
 
 #site-header {
-    background-image: url(https://images.pexels.com/photos/1320674/pexels-photo-1320674.jpeg?_gl=1*smp3pw*_ga*MTY1Njc1OTczMy4xNzkwNDU0MDY5*_ga_8JE65Q40S6*czE3OTEzNzYxNzYkbzIkZzEkdDE3OTEzNzgxOTQkajUwJGwwJGgw);
-    background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
-    text-align: center;
+  background-image: url(https://images.pexels.com/photos/1320674/pexels-photo-1320674.jpeg?_gl=1*smp3pw*_ga*MTY1Njc1OTczMy4xNzkwNDU0MDY5*_ga_8JE65Q40S6*czE3OTEzNzYxNzYkbzIkZzEkdDE3OTEzNzgxOTQkajUwJGwwJGgw);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 4px solid gold;
 }
 
 #site-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    font-style: italic;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .tagline {
-    font-style: italic;
-    color: rgb(232, 85, 89);
+  font-style: italic;
+  color: rgb(232, 85, 89);
 }
 
 nav {
-    color: white;
-    font-weight: bold;
-    line-height: 3;
+  color: white;
+  font-weight: bold;
+  line-height: 3;
+}
+
+#site-header nav ul {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 8px 10px;
+  margin: 0 4px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline;
 }
 
 nav a {
-    color: hsl(67, 96%, 34%);
+  color: hsl(67, 98%, 26%);
 }
 
-nav:hover {
-    color: hsl(67, 96%, 34%);
+nav ul li:hover {
+  background-color: rgb(202, 202, 202);
+
 }
 
-main h2, h3 {
-    color: #1F3D7A;
+nav ul li:hover a {
+  color: white;
+
+}
+
+main h2,
+h3 {
+  color: #1f3d7a;
 }
 
 .intro {
-    font-style: italic;
-    font-weight: 400;
+  font-style: italic;
+  font-weight: 500;
+  color: #323e57;
+  font-size: 1.2em;
 }
 
-.intro span{
-    font-weight: 700;
+.intro span {
+  font-weight: 600;
 }
 
 .skill-list li:nth-child(odd) {
-    background-color: rgb(244, 250, 252);
+  background-color: rgb(244, 250, 252);
 }
 
 .skill-list li:nth-child(even) {
-    background-color: white;
+  background-color: white;
 }
 
 .skill-list li:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .project:nth-of-type(odd) {
-    background-color: rgb(255, 255, 233);
+  background-color: rgb(255, 255, 233);
 }
 
 .project:nth-of-type(even) {
-    background-color: rgb(255, 248, 248);
+  background-color: rgb(255, 248, 248);
 }
 
 label {
-    font-weight:bold;
-    color: #1F3D7A;
+  font-weight: bold;
+  color: #1f3d7a;
 }
 
-input, textarea{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    width: 60%;
-}
-
-input:focus, textarea:focus, select:focus {
-    background-color: black;
-    color: #FFFFFF;
+input,
+textarea {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 60%;
 }
 
 
 .send {
-    color:white;
-    background-color: hsl(220, 60%, 30%);
-    font-weight: bold;
-    width: 30%;
+  color: white;
+  background-color: hsl(220, 60%, 30%);
+  font-weight: bold;
+  width: 30%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .send:hover {
-    background-color:  hsl(220, 60%, 45%);
+  background-color: hsl(220, 60%, 45%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 #site-footer {
-    background-color: #172136;
-    color: white;
-    text-align: center;
-    font-size: 0.9rem;
+  background-color: #172136;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .box {
-    width: fit-content;
+  width: fit-content;
 }
+
+input::placeholder, textarea::placeholder{
+    color: #999999;
+}
+
+.avatar {
+    width: 110px;
+    height: 110px;
+    border: 4px solid gold;
+    border-radius: 50%;
+    float: left;
+    margin: 0 24px 12px 0;
+}
+
+#competenze{
+    clear: both;
+}
+
+#chi-sono .intro::first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: #06369c;
+    line-height: 0.5;
+}
+
+
+.project:first-of-type h3::after{
+  content: "NEW";
+ display: inline-block;
+ padding: 2px 8px;
+ margin-left: 12px;
+ background-color: red;
+ color: #ffffff;
+ border-radius: 3px;
+ font-size: 0.75 rem;
+}
+
+
